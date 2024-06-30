@@ -66,5 +66,12 @@ otherobj.email="chandana@gmail.com";
 console.log(otherobj);
 console.log(obj);
 
+console.log("****");
+//string
+console.log(1+2+"2");
+console.log("2"+2+2);
+
+
+
 
 

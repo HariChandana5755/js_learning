@@ -38,6 +38,7 @@ console.log("****");
 
 let value=String(num);
 console.log(value);
+console.log(typeof value);
 
 console.log("****");
 
@@ -67,9 +68,15 @@ console.log(otherobj);
 console.log(obj);
 
 console.log("****");
-//string
+//string implicitily it converts number into string(1+2)=3+"2"=32
 console.log(1+2+"2");
 console.log("2"+2+2);
+//string interpolation by `....` and ${} is placeholders
+let nam="hari";
+let age=25;
+console.log(`name of the student is ${nam} and age of the student is ${age}`);
+
+
 
 
 

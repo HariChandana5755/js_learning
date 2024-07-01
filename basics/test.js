@@ -84,6 +84,7 @@ console.log(`name of the student is ${nam} and age of the student is ${age}`);
 let studentName= new String("hari");//creating object by using String() constructor
 console.log(typeof studentName);
 console.log(studentName);//output is object and this formate [String: 'hari']
+console.log(studentName.__proto__);//{}-o/p
 
 //charAt(), indexOf(), toUpercase(), trim(), slice() can use -ve values slice(-4, 3)
 //subString(), replace(), include(), split(seperator, limit)

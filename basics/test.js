@@ -68,13 +68,54 @@ console.log(otherobj);
 console.log(obj);
 
 console.log("****");
+
 //string implicitily it converts number into string(1+2)=3+"2"=32
 console.log(1+2+"2");
 console.log("2"+2+2);
-//string interpolation by `....` and ${} is placeholders
+
+console.log("****");
+
+//strings 
+//interpolation by `....` and ${} is placeholders
 let nam="hari";
 let age=25;
 console.log(`name of the student is ${nam} and age of the student is ${age}`);
+
+let studentName= new String("hari");//creating object by using String() constructor
+console.log(typeof studentName);
+console.log(studentName);//output is object and this formate [String: 'hari']
+
+//charAt(), indexOf(), toUpercase(), trim(), slice() can use -ve values slice(-4, 3)
+//subString(), replace(), include(), split(seperator, limit)
+console.log(studentName[0]);
+console.log(studentName.charAt(3));
+console.log(studentName.indexOf('i'));
+console.log(studentName.toUpperCase());
+
+let newStudentName=studentName.substring(0, 2);
+console.log(newStudentName);
+
+let newName="    harichandana    ";
+console.log(newName);
+console.log(newName.trim());
+
+console.log(newName.includes("chandana"));//returns boolean value
+
+//browser will not take spaces instead takes %20
+let url="https://hari%20chandana.com";
+console.log(url.replace('%20', ' '));
+
+let otherStudent="hari chandana mothukuri";
+console.log(otherStudent.split(' ', 2));//returns in form of array
+
+
+
+
+
+
+
+
+
 
 
 

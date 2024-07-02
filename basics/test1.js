@@ -107,3 +107,6 @@ console.log(otherDate.toLocaleString());
 let time=new Date();
 console.log(time);
 console.log(time.getTime());
+console.log(time.getMonth());//jan - 0
+console.log(time.getDay());
+console.log(Math.floor(Date.now()/1000));
